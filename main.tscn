@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://wl7paqafaaie"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_mpyf2"]
+[ext_resource type="Script" path="res://cell_container.gd" id="2_11psl"]
+[ext_resource type="Script" path="res://DrawingHandler.gd" id="3_k3m60"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_mpyf2")
+
+[node name="CellContainer" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("2_11psl")
+
+[node name="DrawingHandler" type="Node2D" parent="."]
+script = ExtResource("3_k3m60")
+
+[node name="GameProcessTimer" type="Timer" parent="."]
+wait_time = 0.05
+autostart = true
+
+[connection signal="timeout" from="GameProcessTimer" to="." method="_on_game_process_timer_timeout"]

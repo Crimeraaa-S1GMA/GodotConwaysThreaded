@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhmqeqv0jophh"]
+
+[ext_resource type="Texture2D" uid="uid://bq5ebyncel7h" path="res://cell.png" id="1_qpqfo"]
+[ext_resource type="Script" path="res://cell.gd" id="2_d6pmb"]
+
+[node name="Cell" type="Sprite2D"]
+position = Vector2(2.08165e-12, 2.08165e-12)
+texture = ExtResource("1_qpqfo")
+centered = false
+script = ExtResource("2_d6pmb")

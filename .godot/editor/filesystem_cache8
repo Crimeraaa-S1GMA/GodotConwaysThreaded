@@ -1,0 +1,9 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1722522012
+cell.png::CompressedTexture2D::105047630853762643::1722522012::1722522013::1::::<><>::
+icon.svg::CompressedTexture2D::7948007716821729209::1722521785::1722521837::1::::<><>::
+README.md::TextFile::-1::1722521796::0::1::::<><>::
+main.tscn::PackedScene::1568832470732022884::1722522094::0::1::::<><>::res://main.gd<>res://CellContainer.gd
+main.gd::GDScript::-1::1722522065::0::1::::<>Node<>::
+CellContainer.gd::GDScript::-1::1722522067::0::1::::<>Node<>::
+cell.tscn::PackedScene::2903494611230903569::1722522083::0::1::::<><>::uid://bq5ebyncel7h::::res://cell.png
